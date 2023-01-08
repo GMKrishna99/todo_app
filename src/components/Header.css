@@ -1,0 +1,19 @@
+.header{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ababab;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_day .header_day_day{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+.header_day .header_day_date{
+    font-size: 0.8rem;
+    color: #bebebe;
+    font-weight: 500;
+}
