@@ -23,12 +23,24 @@ let todoObject ={
 setTodos([...todos, todoObject]);
 }
 
+// toggle complete
+function toggleComplete(id) {
+  setTodos(todos.map(todo => {
+    if(todo.id === id) {
+      return {
+        ...todo,
+        isCompleted: !todo.isCompleted
+      }
+    }
+    return todo;
+  }))
+}
   return (
     <div className="container">
       <div className="inner-container">
         <Header />
         <TodoForm addTodo={addTodo}/>
-        <TodoList todos={todos}/>
+        <TodoList todos={todos} toggleComplete={toggleComplete}/>
       </div>
           </div>
   )
