@@ -4,7 +4,7 @@
 
 **This App is Created in Vite & React**
 
-*To Get this project on your meachine *
+*To Get this project on your meachine*
 
 ```
 git clone https://github.com/GMKrishna99/todo_app.git
