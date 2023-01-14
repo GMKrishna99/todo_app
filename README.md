@@ -4,16 +4,12 @@
 
 **This App is Created in Vite & React**
 
-*To install Vite & React*
+*To Get this project on your meachine *
 
 ```
-npm install vite@latest
+git clone https://github.com/GMKrishna99/todo_app.git
 ```
-*Enter Project name*
-```
-project name:Todo-App
-```
-*go to Todo App*
+*chande directory to cloned directory*
 ```
 cd Todo-App
 ```
