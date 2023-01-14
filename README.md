@@ -11,7 +11,7 @@ git clone https://github.com/GMKrishna99/todo_app.git
 ```
 *change directory to cloned directory*
 ```
-cd Todo-App
+cd Todo_App
 ```
 *Install npm in this directory*
 ```
