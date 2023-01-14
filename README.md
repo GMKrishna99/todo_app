@@ -9,7 +9,7 @@
 ```
 git clone https://github.com/GMKrishna99/todo_app.git
 ```
-*chande directory to cloned directory*
+*change directory to cloned directory*
 ```
 cd Todo-App
 ```
