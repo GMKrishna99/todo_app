@@ -22,7 +22,10 @@ let todoObject ={
 }
 setTodos([...todos, todoObject]);
 }
-
+// deleted
+function deleteTodo(id){
+  setTodos(todos.filter(todo =>todo.id !== id))
+}
 // toggle complete
 function toggleComplete(id) {
   setTodos(todos.map(todo => {
@@ -40,7 +43,7 @@ function toggleComplete(id) {
       <div className="inner-container">
         <Header />
         <TodoForm addTodo={addTodo}/>
-        <TodoList todos={todos} toggleComplete={toggleComplete}/>
+        <TodoList todos={todos} toggleComplete={toggleComplete} deleteTodo={deleteTodo}/>
       </div>
           </div>
   )
